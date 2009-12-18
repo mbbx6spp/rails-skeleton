@@ -1,0 +1,15 @@
+#+STARTUP: overview
+#+TAGS: STORY(s)
+#+STARTUP: hidestars
+
+| Person | Role | 
+
+* [/] Sprint 1: 2009-12-27 to 2010-01-10
+** [/] Stories to implement this sprint
+*** [ ] As a new user, I should be able to sign up for a new account by selecting a username (not changeable for now), providing my name, email address and perhaps location (maybe?)
+*** [ ] As a registered user that is not currently signed in, I should be able to sign into the site using my username and password.
+*** [ ] As a registered user that is signed in already, I should be able to specify my personal URL.
+*** [ ] As any public user or agent, when I request a subdomain of a codesmith.me user (e.g. http://myusername.codesmith.me), I should receive a 301 redirect status back with the Location header set to the codesmith.me user's personal URL (when codesmith.me user associated with the subdomain has a supplied URL).
+*** [ ] As any public user or agent, when I request a subdomain of a codesmith.me user (e.g. http://myusername.codesmith.me), I should receive a 200 status with a page stating that the user hasn't provided a personal URL yet (when codesmith.me user associated with the subdomain has not supplied URL yet).
+*** [ ] As any public user or agent, when I request a subdomain of a codesmith.me user (e.g. http://myusername.codesmith.me), I should receive a 404 status Not Found page (when no codesmith.me user is associated with that subdomain).
+
