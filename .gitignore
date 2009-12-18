@@ -1,0 +1,7 @@
+log/*
+tmp/*
+config/*.yml
+db/schema.rb
+doc/
+*~
+*TAGS*
