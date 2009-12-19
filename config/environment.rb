@@ -7,9 +7,8 @@ require File.join(File.dirname(__FILE__), 'boot')
 Rails::Initializer.run do |config|
   # config.load_paths += %W( #{RAILS_ROOT}/extras )
 
-  # config.gem "bj"
-  # config.gem "hpricot", :version => '0.6', :source => "http://code.whytheluckystiff.net"
-  # config.gem "sqlite3-ruby", :lib => "sqlite3"
+  config.gem "haml", :version => "=2.2.14"
+  config.gem "compass", :version => "=0.10.0.pre2"
   # config.gem "aws-s3", :lib => "aws/s3"
 
   # config.plugins = [ :exception_notification, :ssl_requirement, :all ]
