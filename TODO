@@ -31,17 +31,17 @@
     DEADLINE: <2010-01-09 -2d>
 *** TODO As any public user or agent, when I request a subdomain of a codesmith.me user (e.g. http://myusername.codesmith.me), I should receive a 404 status Not Found page (when no codesmith.me user is associated with that subdomain).
     DEADLINE: <2010-01-10 -2d>
-** [3/4] Tasks to complete this sprint                                   :TASK:
+** [4/4] Tasks to complete this sprint                                   :TASK:
 *** DONE Create initial Rails project with sensible .gitignore settings
     DEADLINE: <2009-12-27 -2d>
 *** DONE Remove Test::Unit structure and add RSpec setup
     DEADLINE: <2009-12-27 -2d>
 *** DONE Configure Haml and Compass for Rails project
     DEADLINE: <2009-12-27 -2d>
-*** TODO Push to GitHub repository
+*** DONE Push to GitHub repository
     DEADLINE: <2009-12-28 -2d>
-** [1/2] Chores to complete this sprint                                 :CHORE:
+** [2/2] Chores to complete this sprint                                 :CHORE:
 *** DONE Email devchix about setting up GitHub repository somehow (either via devchix user or my user) AND setup the the repository if necessary
     DEADLINE: <2009-12-26 -2d>
-*** TODO Email devchix about the new repository and perhaps create a new mailing list for just participants
+*** DONE Email devchix about the new repository and perhaps create a new mailing list for just participants
     DEADLINE: <2009-12-28 -2d>
