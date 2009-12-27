@@ -2,6 +2,7 @@ log/*
 tmp/*
 config/*.yml
 db/schema.rb
+db/*.sqlite*
 doc/
 *~
 *TAGS*
